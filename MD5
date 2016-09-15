@@ -1,0 +1,14 @@
+4e03d25f1635cbcc23e5326330fdaa24 *DESCRIPTION
+bab4ad6c5e310c1e95b701ae12c97e71 *NAMESPACE
+1ab6357662737c5bffc2d64479f18e6b *R/DRR-package.R
+d841bef331530ab81836262ebea7970b *R/DRR.R
+35a4d665232367ed6a64040f4d29756e *R/fastKRR.R
+6cdb32c1ae5ab787e1ffd9a85d0b23e8 *README.md
+7ca7ab51dbac1c5e41c58202c8dc7d9b *build/vignette.rds
+e72a819e472d18f7fe5e9f74831912c6 *inst/doc/comparePCA.R
+3994f2898362cd62287d6ec1161d534b *inst/doc/comparePCA.Rmd
+b698ae948c254d9f7c4ef4b8901dee8a *inst/doc/comparePCA.html
+08cf8625d95ab5e61ceadf890ed9ecca *man/DRR-package.Rd
+45275666649ffc029ec40838c775b04a *man/constructFastKRRLearner.Rd
+d12026ad13f5f628325934d8c7360937 *man/drr.Rd
+3994f2898362cd62287d6ec1161d534b *vignettes/comparePCA.Rmd
