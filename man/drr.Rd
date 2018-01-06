@@ -56,7 +56,7 @@ A list the following items:
  \item {"pca.rotation"} The rotation matrix of the PCA.
  \item {"models"} A list of models used to estimate each dimension.
  \item {"apply"} A function to fit new data to the estimated model.
- \item {"inverse"} A function to untransform data. 
+ \item {"inverse"} A function to untransform data.
 }
 }
 \description{
@@ -91,6 +91,7 @@ helix <- cbind(
   y = 3 * sin(tt) + rnorm(length(tt), sd = seq(0.1, 1.4, length.out = length(tt))),
   z = 2 * tt      + rnorm(length(tt), sd = seq(0.1, 1.4, length.out = length(tt)))
 )
+helix <- helix[sample(nrow(helix)),] # shuffling data is important!!
 system.time(
 drr.fit  <- drr(helix, ndim = 3, cv.folds = 4,
                 lambda = 10^(-2:1),
@@ -108,7 +109,7 @@ points3d(drr.fit$inverse(drr.fit$fitted.data[,1:2]),             col = 'red')
 plot3d(drr.fit$fitted.data)
 pad <- -3
 fd <- drr.fit$fitted.data
-xx <- seq(min(fd[,1])      , max(fd[,1])      , length.out = 25)
+xx <- seq(min(fd[,1]),       max(fd[,1]),       length.out = 25)
 yy <- seq(min(fd[,2]) - pad, max(fd[,2]) + pad, length.out = 5)
 zz <- seq(min(fd[,3]) - pad, max(fd[,3]) + pad, length.out = 5)
 
@@ -129,4 +130,3 @@ Laparra, V., Malo, J., Camps-Valls, G., 2015. Dimensionality
     of Selected Topics in Signal Processing 9,
     1026-1036. doi:10.1109/JSTSP.2015.2417833
 }
-

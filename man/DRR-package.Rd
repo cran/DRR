@@ -11,8 +11,9 @@ Kernel Ridge Regression. It also adds a faster implementation of
 Kernel Ridge regression that can be used with the CVST package.
 }
 \details{
-Thanks to the Max Planck Institute for Biogeochemistry in Jena for
-the funding.
+Funding provided by the Department for Biogeochemical Integration,
+Empirical Inference of the Earth System Group, at the Max Plack
+Institute for Biogeochemistry, Jena.
 }
 \references{
 Laparra, V., Malo, J., Camps-Valls, G., 2015. Dimensionality
@@ -23,4 +24,15 @@ Zhang, Y., Duchi, J.C., Wainwright, M.J., 2013. Divide and Conquer
     Kernel Ridge Regression: A Distributed Algorithm with Minimax
     Optimal Rates. arXiv:1305.5029 [cs, math, stat].
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/gdkrmr/DRR}
+  \item Report bugs at \url{https://github.com/gdkrmr/DRR/issues}
+}
 
+}
+\author{
+\strong{Maintainer}: Guido Kraemer \email{gkraemer@bgc-jena.mpg.de}
+
+}

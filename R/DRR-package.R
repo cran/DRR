@@ -4,8 +4,9 @@
 #' Kernel Ridge Regression. It also adds a faster implementation of
 #' Kernel Ridge regression that can be used with the CVST package.
 #'
-#' Thanks to the Max Planck Institute for Biogeochemistry in Jena for
-#' the funding.
+#' Funding provided by the Department for Biogeochemical Integration,
+#' Empirical Inference of the Earth System Group, at the Max Plack
+#' Institute for Biogeochemistry, Jena.
 #'
 #' @references
 #' Laparra, V., Malo, J., Camps-Valls, G., 2015. Dimensionality
@@ -18,4 +19,3 @@
 #'
 #' @docType package
 "_PACKAGE"
-
